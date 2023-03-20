@@ -1,0 +1,50 @@
+
+body {
+    margin: 80px auto;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #FFF44F;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ 
+}
+.container {
+    max-width: 400px;
+    padding: 50px 20px; 
+    background-color: #ffffE0; 
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px; 
+    margin: 0 5px; 
+    border-radius: 3px;
+    border: 2px solid #FFAA1D;
+    
+}
+
+h1 {
+    font-size: 20px;
+    color: #FFAA1D;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #FFAA1D; 
+    color: white; 
+    outline: none
+}
+
+.new-joke-btn {
+  background-color: white;
+}
+
+.joke-text {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
